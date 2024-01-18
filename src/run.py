@@ -1,4 +1,4 @@
-#python
+#python12
 import os
 from app import create_app
 
