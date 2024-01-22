@@ -1,10 +1,9 @@
 name: CI Build App
 
 on:
-  push:
-    branches-ignore: 
-      - "*"
   pull_request:
+    types:
+      - opened
 
 env:
   IMAGE_REG: ghcr.io
